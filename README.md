@@ -34,11 +34,11 @@ zcat SRR7208764_1.fastq.gz | head -20
 Now we should align reads to a reference sequence, like the yeast reference genome. I use STAR aligner software for aligning reads that potentially have splice sites. I don't think STAR is available from RCC available software modules, so you need to download and install it yourself on Midway. Easiest way to do that is to use conda or miniconda to manage installation of software.
 
 First, download [miniconda](https://docs.conda.io/en/latest/miniconda.html) and install it.
-then install STAR using miniconds:
+then install STAR using miniconda:
 ```
 conda install -c bioconda star
 ```
-and check that it works by calling STAR with help flag. I recommend browsing the onling documentation for STAR aligner.
+and check that it works by calling STAR with help flag. I recommend browsing the onling documentation for STAR aligner, or at least the 'general usage' section at the beginning.
 ```
 STAR -h
 ```
