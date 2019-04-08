@@ -2,10 +2,10 @@ Here are instructions to download raw data from Xu et al (Nature Methodsvolume 1
 
 First, log onto midway, and download this repository (which contains some files you will need) with git clone command:
 ```
-git clone
+git clone https://github.com/bfairkun/align-reads-walkthrough.git
 ```
 
-Next, download the data using sra toolkit's fastq-dump command.
+Next, download the raw data (sequencing read [.fastq] files) from Xu et al using sra toolkit's fastq-dump command.
 
 ```
 #load sra-toolkit from RCC available modules
